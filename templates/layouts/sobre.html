@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance - Sobre</title>
+    <link href="/static/css/sobre/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="../static/images/Logo-Finance-Minimslist.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <header>
+
+    <div id="menu">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+        </ul>
+          
+
+        <img class = "logo" src = '../static/images/Logo-Finance.png'>
+    </div>
+    </header>
+    <br><br>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 2</div>
+      <img src="../static/images/Building Sign Mockup.png" style="width: 1000px" height="475px">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 2</div>
+      <img src="../static/images/beef36fd707d.jpg" style="width: 1000px" height="475px">
+      <div class="text">Análise de sentimentos</div>
+    </div>
+    
+    <!-- <div class="mySlides fade"> 
+      <div class="numbertext">3 / 3</div>
+      <img src="Imagens/C.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>-->
+  
+    <!-- <div class="mySlides fade" align="center"> 
+      <div class="numbertext">4 / 4</div>
+          <h1><b>Conheça os desafios de inovação </b></h1>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+        
+    </div>-->
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+    <!-- <span class="dot" onclick="currentSlide(4)"></span> -->
+  </div>
+  
+  <script type="text/javascript">
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+        <div id  = "txt">
+            <div id ="sobre">
+
+                <h3>Visão Geral do projeto</h3>
+                    <p>
+                         O projeto Finance tem o objetivo de Identificar automaticamente o relato da experiência 
+                        de Clientes com produtos de instituições bancárias no Twitter por meio da aplicação de 
+                        técnicas de Inteligência Artificial.
+                    </p>
+
+                    <p>
+                        Foram classificados manualmente 4.374 tweets relacionados a produtos oferecidos por bancos 
+                        e respectivas manifestações de clientes. Estes tweets foram utilizados para o treinamento de 
+                        um classificador baseado em cálculos probabilísticos. Um grafo com os resultados da classificação 
+                        e conexões oriundas da rede social foi construído e apresentado por meio de um sítio eletrônico.        </p>
+                    </p>
+        <br>
+                    <p>
+                        As técnicas de Inteligência Artificial relacionadas ao reconhecimento de entidades em redes sociais 
+                        presentadas neste artigo são promissoras e alcançaram níveis de precisão e revocação satisfatórios.
+                    </p>
+        <hr>
+  
+        <h3>Objetivos</h3>
+                    <p><strong>Objetivo específico 1:</strong> Criar um mecanismo automático de coleta e armazenamento de dados não estruturados</p>
+                    <p><strong>Objetivo específico 2:</strong> Construir um algoritmo para identificação de entidades nomeadas a partir de técnicas de Inteligência Artificial</p>
+         <br>           <p><strong>Objetivo específico 3:</strong> Criar um painel de visualização de dados com filtragens avançadas</p>
+                    <p><strong>Objetivo específico 4:</strong> Realizar testes contínuos para aperfeiçoamento da IA.</p>
+        
+        <hr>
+
+        <h3>Códigos do projeto</h3>
+        <a href="https://github.com/financetcc/dumpTweets" target="_blank">Code Stream Tweets</a>
+        <p></p>
+        <a href="https://bit.ly/2U2AhgA" target="_blank">Pré-processamento de postagens</a>
+        <p></p>
+        <a href="https://bit.ly/3rYigMT" target="_blank">Exportação de dados em formato JSON</a>
+        <p></p>
+        <a href="https://bit.ly/3fyx2oo" target="_blank">Treinamento do classificador</a>
+        <p></p>
+        <a href="https://bit.ly/3isrbD4" target="_blank">Classificador</a>
+        <p></p>
+    
+            </div>
+        </div>
+
+        <div id="participantes">
+        <h2>Participantes do projeto</h2>
+        <br>
+      </div>
+        <div id="fotos">
+          <a href="https://www.linkedin.com/in/iagovtr/" target="_blank"><img src ='../static/images/iago.jpeg'></a>
+          <a href="https://www.linkedin.com/in/vinicius-augusto-da-silva-409752182/" target="_blank"><img src ='../static/images/vini.jpg'></a>
+          <a href="https://www.linkedin.com/in/victor-moreira-dos-santos-4b49a8189/" target="_blank"><img src ='../static/images/vitao.jpeg'></a>
+        </div>
+        <div id = "nomes">
+          <ul>
+            <li>Iago</li>
+            <li>Vinicius</li>
+            <li>Vitor</li>
+          </ul>
+        </div>
+      
+
+        <br><br><br>
+    <div id="menurodape">
+      <ul>
+        <li><a href="https://github.com/financetcc" title="Github Finance" target="_blank" style="color: black;"></li>
+        <i data-feather="github"></i></a><span></span>
+        <li><a href="https://ptb.ifsp.edu.br/" title="Página IFSP" target="_blank"></li>
+        <i data-feather="globe"></i></a>
+        <li><a href="https://www.linkedin.com/groups/9076988/manage/membership/members/" title="LinkedIn" target="_blank" style="color: #0274b3;"></li>
+        <i data-feather="linkedin"></i></a>
+        <li><a href="mailto:entitytcc@gmail.com?Subject=Título%20da%20mensagem" title="E-mail" target="_blank" style="color: gray;"></li>
+        <i data-feather="inbox"></i></a>
+      </ul>
+        <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+
+</body>
+</html>

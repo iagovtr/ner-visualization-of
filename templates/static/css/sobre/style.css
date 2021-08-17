@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.logo {
+    height: 75px;
+    margin: 10px;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    /* background: white; */
+    font-family: 'PT Sans', sans-serif;
+    /* font-size: 17px; */
+}
+
+
+div#menu {
+  font-family: 'PT Sans', sans-serif;
+  background: black;
+}
+
+div#menu ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color:  #333;
+}
+
+div#menu li {
+  float:left;
+}
+
+div#menu li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 25px;
+}
+
+
+div#menu li a:hover {
+  background: #40ec82;;
+  color: black;
+}
+
+div#txt {
+    background-color: white;
+    height: 500px;
+}
+
+div#sobre { 
+    /* margin: 100px; */
+    /* font-size: 16px; */
+    /* display: inline-block; */
+    margin: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    padding: 5px 20px;
+    /* max-width: 500px; */
+    max-width: 1500px;
+    background-color: rgb(252, 252, 252);
+    column-count: 3;
+    column-gap: 50px;
+    word-spacing: 5px;
+}
+
+h2, h3{
+    color: #11998e;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color:rgb(9, 77, 9);
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display:none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor:pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #11998e;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+div#participantes{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+div#fotos  {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+div#fotos img {
+  border-radius: 10cm;
+  height: 150px;
+  margin: 0 15px;
+}
+
+div#fotos a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1.5s;
+  transition-delay: 0.2s;
+  animation-timing-function: ease-in-out;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+  zoom: 1;
+}
+
+
+
+div#nomes ul {
+  margin-left: 469px;
+  word-spacing: 125px;
+  font-family: 'Montserrat', sans-serif;
+  color: #11998e;
+}
+
+div#nomes li {
+  list-style-type: none;
+  display: inline-block;
+  
+}
+
+/* Formatação Rodapé */
+div#menurodape {
+  font-family: 'PT Sans', sans-serif;
+  background-color: whitesmoke;
+}
+
+div#menurodape ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 15px;
+  word-spacing: 10px;
+}
+
+div#menurodape li {
+  float:left;
+  padding: 0px;
+}
+
+div#menurodape p {
+  margin: 10px;
+  font-size: 14px;
+}

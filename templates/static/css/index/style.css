@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html {
+    height: 100%;
+    
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    /*
+    display: flex;
+    flex-direction: column;    
+    */
+}
+
+div#menu {
+    font-family: 'PT Sans', sans-serif;
+    background: black;
+    height: 187px;
+}
+
+div#menu ul {
+    list-style-type:none;
+    margin: 0;
+    overflow: hidden;
+    background-color:  #333;
+}
+
+div#menu li {
+    float:left;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+div#menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 25px;
+}
+
+div#menu li a:hover {
+    background: #40ec82;;
+    color: black;
+}
+
+ .logoImg{
+    padding: 2rem;
+    width: 25.7rem;
+    margin: 1rem;
+    float: left;
+}
+
+.btn {
+    background-color: rgb(102, 153, 255);
+}
+
+#mynetwork {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid lightgray; */
+}
+
+#loadingBar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(230, 216, 216, 0.8); */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 1;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#loadingBar p {
+    width: 1150px;
+    margin-left: 150px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    float:left;
+}
+
+#wrapper {
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+/*     background-color: #1c1b1b; */
+}
+
+#text {
+    position: absolute;
+    top: 1px;
+    left: 530px;
+    width: 30px;
+    height: 50px;
+    margin: auto auto auto auto;
+    font-size: 22px;
+    color: #000000;
+}
+
+div.outerBorder {
+    position: relative;
+    top: 20px; /* Distância barra loading */
+    width: 600px;
+    height: 44px;
+    margin: auto auto auto auto;
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    background: rgb(238, 232, 232);
+    /* Old browsers */
+    background: -moz-linear-gradient( top, rgba(252, 252, 252, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, rgba(252, 252, 252, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient( top, rgba(252, 252, 252, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient( top, rgba(252, 252, 252, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient( top, rgba(252, 252, 252, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient( to bottom, rgba(252, 252, 252, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed', GradientType=0);
+    /* IE6-9 */
+    border-radius: 72px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#border {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    width: 500px;
+    height: 20px;
+    margin: auto auto auto auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    margin: auto auto auto auto;
+    border-radius: 11px;
+    border: 2px solid rgba(30, 30, 30, 0.05);
+    background: #4378fc;
+    /* Old browsers */
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.butt {
+    height: 50px;
+    padding-top: 75px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gif {
+    margin-top: 75px;
+}
+
+/* Formatação Rodapé */
+div#menurodape {
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 1000px;
+    float: left;
+  }
+  
+  div#menurodape ul {
+    list-style-type: none;
+    word-spacing: 10px;
+    float: left;
+    padding: 10px 10px;
+    word-spacing: 10px;
+    margin-top: -50px;
+  }
+  
+  div#menurodape li {
+    float:left;
+    padding: 0px;
+  }
+  
+  div#menurodape p {
+    margin: 10px;
+  }
+
+  div#menurodape a {
+    text-decoration: none;
+    color: green;
+}

@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" href="../static/images/Logo-Finance-Minimslist.ico">
+    <script src="https://d3js.org/d3.v7.js"></script>
+    <script src="https://ialab.it.monash.edu/webcola/cola.min.js"></script>
+    <script src="https://unpkg.com/algorithmx"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script async src="/static/js/graph-vis.js"></script>
+    <script src="/static/js/script.js"></script>
+    <link rel="stylesheet" href="/static/css/index/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Finance - Inicio</title>
+</head>
+
+
+<body>
+    <header class="d-flex flex-wrap justify-content-between">
+        <div id="menu">
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="sobre">SOBRE NÓS</a></li>
+            </ul>
+
+            <div class="logo justify-content-initial">
+               <img class="logoImg" src='../static/images/Logo-Finance.png'>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- Elementos para hospedar a barra de progresso e o grafo   -->
+    <div id="wrapper">
+        <div id="mynetwork"></div>
+        <div id="loadingBar">
+            <div class="row justify-content-center">
+                <h2>TCC - Análise de sentimentos</h2>
+                <br>
+                <p>Com a análise de sentimentos, analisaremos automaticamente cada tweet que possui relação 
+                    a serviços prestados por instituições bancárias, forneceremos uma classificação de sentimentos
+                para cada postagem e, em seguida, converteremos essas classificações em um grafo para visualização.</p>
+            <div class = "gif">
+                <img src ='http://attendify.com/blog//wp-content/uploads/2018/02/sentiment-analysis.gif'>
+            </div>
+                <!-- <h4>(Flask + vis.js + networkx + Mongodb)</h4> -->
+                <!--button class="btn btn-primary" id="clearButton">Clear</button-->
+            </div>
+            <div class="outerBorder">
+                <div class="butt">
+                    <button class="btn btn-primary" id="sendButton" style="background-color: #4378fc;">Criar ou reiniciar grafo</button>
+                    <br><br>
+                    <b>Clique 2 vezes sobre os nós para navegar no grafo</b>
+                </div>
+                <div id="text">0%</div>
+                <div id="border">
+                    <div id="bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div id="rodape">
+        <div id="menurodape">
+        <ul>
+            <li><a href="https://github.com/financetcc" title="Github Finance" target="_blank" style="color: black;"></li>
+            <i data-feather="github"></i></a><span></span>
+            <li><a href="https://ptb.ifsp.edu.br/" title="Página IFSP" target="_blank"></li>
+            <i data-feather="globe"></i></a>
+            <li><a href="https://www.linkedin.com/groups/9076988/manage/membership/members/" title="LinkedIn" target="_blank" style="color: #0274b3;"></li>
+            <i data-feather="linkedin"></i></a>
+            <li><a href="mailto:entitytcc@gmail.com?Subject=Título%20da%20mensagem" title="E-mail" target="_blank" style="color: gray;"></li>
+            <i data-feather="inbox"></i></a>
+          </ul>
+          <p style="color: black;">IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+      </div>
+    </div>
+      <script>
+          feather.replace()
+      </script>
+</body>
+
+</html>
