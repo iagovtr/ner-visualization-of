@@ -29,5 +29,5 @@ https://devcenter.heroku.com/articles/getting-started-with-python
 
 
 ### Home page
-#### Site demonstração: https://flask-graph-vis-js.herokuapp.com/
+#### Site demonstração: https://ner-visualization.herokuapp.com/
 <image width='500px' src='./home.png'>
